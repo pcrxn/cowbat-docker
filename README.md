@@ -1,6 +1,6 @@
 # cowbat-docker
 
-Dockerfile for COWBAT 0.5.0.23 with an updated version of SKESA (2.1 --> 2.4).
+Dockerfile for [COWBAT](https://github.com/OLC-Bioinformatics/COWBAT) 0.5.0.23 with an updated version of SKESA (2.1 --> 2.4).
 
 ## 1 Building COWBAT's Docker image
 
