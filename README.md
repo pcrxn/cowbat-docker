@@ -18,7 +18,7 @@ docker build -t cowbat:0.5.0.23_skesa-2.4.0 --secret id=secret.txt,src=secret.tx
 To assemble genomes from raw FASTQ reads within a local directory `data/fastq`:
 
 ```bash
-docker run --rm -v $PWD:/home cowbat:latest \
+docker run --rm -v $PWD:/home cowbat:0.5.0.23_skesa-2.4.0 \
     assembly_pipeline.py \
     -s data/fastq/ \
     -r /opt/databases/ \
